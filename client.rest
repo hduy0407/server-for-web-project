@@ -1,0 +1,18 @@
+### Login with valid credentials
+POST http://localhost:3001/user/login
+Content-Type: application/json
+
+{
+    "email":"admin@gmail.com",
+    "password":"123456"
+}
+
+### Signup
+
+POST http://localhost:3001/user/signup
+Content-Type: application/json
+
+{
+    "email":"haz@gmail.com",
+    "password":"1234"
+}
