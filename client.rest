@@ -3,16 +3,16 @@ POST http://localhost:3001/user/login
 Content-Type: application/json
 
 {
-    "email":"admin@gmail.com",
-    "password":"123456"
+    "email":"hd@gmail.com",
+    "password":"1234"
 }
 
 ### Signup
 
-POST http://localhost:3001/user/signup
+POST http://localhost:3001/user/register
 Content-Type: application/json
 
 {
-    "email":"haz@gmail.com",
+    "email":"hd@gmail.com",
     "password":"1234"
 }
