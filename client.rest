@@ -16,3 +16,7 @@ Content-Type: application/json
     "email":"hd@gmail.com",
     "password":"1234"
 }
+
+
+### Get products
+GET http://localhost:3001
