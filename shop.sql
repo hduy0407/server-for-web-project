@@ -11,7 +11,7 @@ create table products (
     id serial primary key,
     name varchar(50),
     price float,
-    description varchar(200)
+    description varchar(200),
     image varchar(200)
 );
 
